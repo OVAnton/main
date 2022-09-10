@@ -1,11 +1,9 @@
 import re
 import csv
-from pprint import pprint
 
 obj = re.compile(r'(?P<ip>\d+\.\d+\.\d+\.\d+)( - - \[)(?P<datetime>[\s\S]+)......\] '
                  r'\"(?P<metod>[A-Z]+) (?P<request>[\S]*) (?P<protocol>[\S]+)["] (?P<code>\d+) '
                  r'(?P<sendbytes>\d+) ["](?P<refere>[\S]*)["] ["](?P<useragent>[\S]*)([\S\s]+) (?P<ip_d>\d+\.\d+\.\d+\.\d+)')
-
 
 def load_log(path):
     with open('csv_log.csv', 'w', newline='', encoding="windows-1251") as csv_f:
