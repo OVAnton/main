@@ -4,5 +4,5 @@
 You can install it in a few ways:
 1. Clone the repository.
 ```git
-https://github.com/OVAnton/main.git
+wget https://github.com/OVAnton/main.git
 ```
