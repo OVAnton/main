@@ -1,7 +1,7 @@
 # Parser nginx log
 ## This python script parses an NGINX access log and convert it to csv.
-### Installation
-You can install it in a few ways:
+### Getting started
+You can started it in a few ways:
 1. Install git and git-core packages under a Debian or Ubuntu Linux.
 ```git
 sudo apt-get install git git-core
