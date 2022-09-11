@@ -14,6 +14,7 @@ git clone https://github.com/OVAnton/main
 ```bash
 sudo apt-get install python3.10
 ```
-4. ```bash
+4. Using nginx_p.py script
+```bash
 python3 nginx_p.py
 ```
