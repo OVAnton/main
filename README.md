@@ -18,4 +18,4 @@ sudo apt-get install python3.10
 ```bash
 python3 nginx_p.py
 ```
-https://img.shields.io/github/pipenv/locked/python-version/OVAnton/main
+# Starter from Dockerfile
