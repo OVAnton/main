@@ -10,3 +10,7 @@ sudo apt-get install git git-core
 ```git
 git clone https://github.com/OVAnton/main
 ```
+3. Install Python 3
+```bash
+sudo apt-get install python3
+```
