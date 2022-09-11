@@ -20,5 +20,6 @@ python3 nginx_p.py
 ```
 ### Started from Dockerfile
 ```git
-docker build -t parser_nginx .
-docker run parser_nginx 
+$ docker build -t parser_nginx .
+$ docker run parser_nginx 
+```
